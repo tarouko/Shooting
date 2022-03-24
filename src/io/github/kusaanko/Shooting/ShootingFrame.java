@@ -19,7 +19,7 @@ public class ShootingFrame extends JFrame {
             @Override
             public void windowClosed(WindowEvent e) {
                 super.windowClosed(e);
-                Shooting.loop = true;
+                Shooting.loop = false;
             }
         });
 
